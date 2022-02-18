@@ -1,0 +1,33 @@
+@import url("/style.css");
+
+.container-alert {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.alert {
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+}
+
+.alert-success {
+  background: rgba(169, 252, 177, 0.4);
+  border: 1px solid #537c1e;
+}
+
+.alert-error {
+  background: #ffdddd;
+  border: 1px solid #ff0000;
+}
+
+.alert-warning {
+  background: rgba(245, 222, 11, 0.22);
+  border: 1px solid #605c00;
+}
+
+.alert-info {
+  background: #ddeaff;
+  border: 1px solid #334b71;
+}
