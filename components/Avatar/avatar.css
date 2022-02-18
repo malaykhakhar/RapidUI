@@ -1,0 +1,38 @@
+@import url("/style.css");
+
+.container-avatars {
+  width: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.avatar {
+  /* background-color: ; */
+  border-radius: 50%;
+}
+
+.avatar-xl {
+  height: 8rem;
+  width: 8rem;
+}
+
+.avatar-l {
+  height: 7rem;
+  width: 7rem;
+}
+
+.avatar-m {
+  height: 6rem;
+  width: 6rem;
+}
+
+.avatar-s {
+  height: 5rem;
+  width: 5rem;
+}
+
+.avatar-xs {
+  height: 4rem;
+  width: 4rem;
+}
