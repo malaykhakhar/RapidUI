@@ -124,3 +124,17 @@ aside hr {
 .main-para {
   margin: 3rem 0;
 }
+
+.container-alert {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.container-avatars {
+  width: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
