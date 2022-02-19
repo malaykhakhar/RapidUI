@@ -1,14 +1,6 @@
 @import url("/style.css");
 
-.container-avatars {
-  width: 40rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .avatar {
-  /* background-color: ; */
   border-radius: 50%;
 }
 
