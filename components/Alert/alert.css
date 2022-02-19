@@ -1,10 +1,17 @@
 @import url("/style.css");
 
-.container-alert {
-  width: 40rem;
-  display: flex;
-  flex-direction: column;
-  row-gap: 1rem;
+:root {
+  --primary-green: rgba(169, 252, 177, 0.4);
+  --secondary-green: #537c1e;
+
+  --primary-red: #ffdddd;
+  --secondary-red: #ff0000;
+
+  --primary-yellow: rgba(245, 222, 11, 0.22);
+  --secondary-yellow: #605c00;
+
+  --primary-blue: #ddeaff;
+  --secondary-blue: #334b71;
 }
 
 .alert {
@@ -13,21 +20,21 @@
 }
 
 .alert-success {
-  background: rgba(169, 252, 177, 0.4);
-  border: 1px solid #537c1e;
+  background: var(--primary-green);
+  border: 1px solid var(--secondary-green);
 }
 
 .alert-error {
-  background: #ffdddd;
-  border: 1px solid #ff0000;
+  background: var(--primary-red);
+  border: 1px solid var(--secondary-red);
 }
 
 .alert-warning {
-  background: rgba(245, 222, 11, 0.22);
-  border: 1px solid #605c00;
+  background: var(--primary-yellow);
+  border: 1px solid var(--secondary-yellow);
 }
 
 .alert-info {
-  background: #ddeaff;
-  border: 1px solid #334b71;
+  background: var(--primary-blue);
+  border: 1px solid var(--secondary-blue);
 }
