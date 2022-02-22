@@ -1,24 +1,50 @@
 @import url("/style.css");
 
-:root {
-  --secondary-color: #047bfb;
-  --white: #fff;
-}
-
 .btn {
   padding: 0.8rem 1.6rem;
   border: none;
   border-radius: 10px;
   font-size: 1.6rem;
-  color: var(--white);
 }
 
 .btn-primary {
   background-color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  color: var(--white);
+}
+
+.btn-primary a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.btn-primary:hover {
+  background-color: var(--white);
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-primary:hover a {
+  color: var(--primary-color);
 }
 
 .btn-secondary {
-  background-color: var(--secondary-color);
+  background-color: var(--white);
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-secondary a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.btn-secondary:hover {
+  background-color: var(--primary-color);
+}
+
+.btn-secondary:hover a {
+  color: var(--white);
 }
 
 .btn-link {
@@ -27,7 +53,8 @@
 
 .btn-link-outline {
   background: var(--white);
-  border: 1px solid var(--primary-color);
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
 }
 
 .btn-link a {

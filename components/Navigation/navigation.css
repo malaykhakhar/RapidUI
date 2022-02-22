@@ -1,13 +1,12 @@
 @import url("/style.css");
 
 :root {
-  --primary-color: crimson;
-  --white: #fff;
+  --primary-color-nav: crimson;
 }
 
 .head {
   display: flex;
-  background-color: var(--primary-color);
+  background-color: var(--primary-color-nav);
   align-items: center;
   flex-wrap: wrap;
   padding: 0 7rem;
